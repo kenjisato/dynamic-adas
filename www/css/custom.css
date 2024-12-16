@@ -1,0 +1,22 @@
+.floating-label .form-group.shiny-input-container label {
+    float: left;
+    width: 10%;
+}
+
+.floating-label .form-group.shiny-input-container input {
+    float: left;
+    width: 90%;
+}
+
+#b_lt_e .suggestion > span.help-block {
+    size: 30px;
+    color: red !important;
+}
+
+hr {
+    margin: 0.5rem 0 !important;
+}
+
+.middle-card {
+    width: 30%;
+}

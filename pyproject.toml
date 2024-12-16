@@ -1,14 +1,18 @@
 [project]
-name = "shinyapps-template"
+name = "dynamic-adas"
 version = "0.1.0"
-description = "Add your description here"
+description = "Shiny apps for AD-AS simulation"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
-    "shiny>=1.1.0",
+    "matplotlib>=3.9.4",
+    "numpy>=2.2.0",
+    "shiny==1.2.1",
 ]
 
 [tool.uv]
 dev-dependencies = [
+    "pytest>=8.3.4",
     "rsconnect-python>=1.24.0",
+    "ruff>=0.8.3",
 ]
